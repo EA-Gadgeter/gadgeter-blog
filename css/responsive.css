@@ -1,0 +1,115 @@
+/* Estilos generales antes de los 900px */
+
+@media (width <= 900px) {
+
+    .blogs-main-new {
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+    }
+
+    .blogs-main-new  h3 {
+        font-size: 2rem;
+    }
+
+    .blogs-news__info-container h2 {
+        font-size: 2.25rem;
+    }
+
+    .blogs-news__img-container {
+        grid-row: 2;
+
+        margin-bottom: 1rem;
+    }
+
+    .blogs-news__info-container {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .blogs-news__info-container p {
+        font-size: 1.4rem;
+    }
+
+    .blogs-posts-container .post-container p:first-of-type {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .blogs-posts-container .post-container p {
+        font-size: 1.4rem;
+        margin-bottom: 2.75rem;
+    }
+}
+
+/* Estilos mobile vertical */
+@media (width <= 520px) {
+
+    header .header__icons-container {
+        padding-right: 2.5rem;
+    }
+
+    nav {
+        padding: 0 2.5rem;
+    }
+
+    nav .nav__logo-container img {
+        width: 18rem;
+    }
+
+    .blogs-posts-container .posts-container .post-container {
+        max-width: 100%;
+
+        margin-bottom: 3rem;
+        padding: 0;
+    }
+
+    .blogs-posts-container .post-container img {
+        margin-bottom: 1.5rem;
+    }
+
+    .contact-main-container {
+        flex-direction: column;
+
+        padding: 4rem 2rem;
+    }
+
+    .contact-main-container__item {
+        width: 100%;
+
+        margin-bottom: 3.25rem;
+    }
+
+    .contact-main-container__item:last-child {
+        margin-bottom: 0;
+    }
+
+    .profile-main-container .profile-info {
+        display: block;
+
+        text-align: center;
+    }
+
+    .profile-info img {
+        margin: 0 auto 1.5rem;
+    }
+
+    .proyects-main-container {
+        grid-template-columns: 1fr;
+        row-gap: 2.5em;
+    }
+}
+
+/* Mobile Horizontal o Tablet */
+@media ( 520px < width <= 900px) {
+
+    .blogs-posts-container .posts-container .post-container {
+        max-width: 45%;
+    }
+
+    .proyects-main-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr;
+        row-gap: 1.5rem;
+    }
+}

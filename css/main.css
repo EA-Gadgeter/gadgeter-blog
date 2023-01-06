@@ -254,3 +254,159 @@ footer {
 footer p {
     font-size: 1.5rem;
 }
+
+.limit-width {
+    max-width: 1020px;
+
+    margin: 0 auto;
+}
+
+.blog-main {
+    background-color: #e6e9ed;
+}
+
+.blogpost-img-container {
+    padding: 4rem 5rem;
+}
+
+.blogpost-img-container img {
+    width: 100%;
+}
+
+.blogpost-main-container {
+    padding: 0 5rem 4rem;
+}
+
+.blogpost-main-container h3 {
+    padding-bottom: 2rem;
+
+    font-size: 1.85rem;
+
+    border-bottom: 0.1rem solid #adb0b6;
+}
+
+.blogpost-main-container article h1 {
+    padding: 2rem 0 2rem;
+
+    font-size: 3rem;
+}
+
+.blogpost-main-container article p {
+    margin-bottom: 1rem;
+    
+    font-size: 1.65rem;
+}
+
+.blogpost-main-container article p:last-child {
+    margin: 0;
+}
+
+.contact-main-container {
+    width: 100%;
+    min-height: 250px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 0 1.5rem;
+
+    text-align: center;
+
+    background-color: #616161;
+}
+
+.contact-main-container__item {
+    width: 49.5%;
+    max-width: 450px;
+
+    display: flex;
+    align-items: center;
+}
+
+.contact-main-container__item img {
+    min-width: 50px;
+    max-width: 100px;
+
+    margin-right: 1.5rem;
+}
+
+.contact-main-container__item a {
+    padding-bottom: 0.5rem;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    border-bottom: 0.1rem solid black;
+}
+
+.contact-main-container__item p {
+    margin-top: 1.5rem;
+
+    font-size: 1.5rem;
+}
+
+.contact-main-container .contact-left, .contact-right {
+    text-align: initial;
+}
+
+.profile-main-container {
+    padding: 7rem 4rem;
+
+    background-color: #e6e9ed;
+}
+
+.profile-main-container .profile-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-info img {
+    margin-right: 4rem;
+
+    border-radius: 50%;
+}
+
+.profile-info h2 {
+    margin-bottom: 1rem;
+
+    font-size: 2.5rem;
+}
+
+.profile-info p {
+    font-size: 1.75rem;
+}
+
+.profile-main-proyects {
+    padding: 5rem 5rem ;
+
+    background-color: #cbced2;
+}
+
+.profile-main-proyects h3 {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+
+    font-size: 2.5rem;
+
+    text-align: center;
+    border-bottom: 0.1rem solid black;
+}
+
+.proyects-main-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    padding: 0 1rem;
+}
+
+.proyects-main-container article h4 {
+    margin-bottom: 1rem;
+
+    font-size: 1.75rem;
+}
+
+.proyects-main-container article p {
+    font-size: 1.25rem;
+}
